@@ -37,6 +37,7 @@ registry:
 builder:
   arch: amd64
 
+
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
 #
 # env:
@@ -55,6 +56,8 @@ builder:
 #
 # ssh:
 #   user: app
+ssh:
+  keys: [ "~/.ssh/id_do_11_2024" ]
 
 # Use a persistent storage volume.
 #
