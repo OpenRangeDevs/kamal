@@ -30,7 +30,7 @@ jobs:
           tags: ${{ env.IMAGE_NAME }}:${{ github.sha }},${{ env.IMAGE_NAME }}:latest
 
       - name: Install Kamal
-        run: gem install kamal
+        run: sudo gem install kamal
 
       - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.8.0
