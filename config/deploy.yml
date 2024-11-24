@@ -1,8 +1,8 @@
 # Name of your application. Used to uniquely configure containers.
-service: kamal-1
+service: kamal
 
 # Name of the container image.
-image: openrangedevs/kamal-1
+image: openrangedevs/kamal
 
 # Deploy to these servers.
 servers:
