@@ -57,8 +57,7 @@ builder:
 # ssh:
 #   user: app
 ssh:
-  keys: [ ${{ secrets.SSH_PRIVATE_KEY }} ]
-  # keys: [ "~/.ssh/id_do_11_2024" ]
+  keys: [ "~/.ssh/id_do_11_2024" ]
 
 # Use a persistent storage volume.
 #
