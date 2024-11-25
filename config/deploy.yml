@@ -56,9 +56,9 @@ builder:
 #
 # ssh:
 #   user: app
-# ssh:
-#   keys: [  ]
+ssh:
   # keys: [ "~/.ssh/id_do_11_2024" ]
+  keys: [  ]
 
 # Use a persistent storage volume.
 #
