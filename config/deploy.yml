@@ -30,7 +30,8 @@ registry:
   username: openrangedevs
 
   # Always use an access token rather than real password (pulled from .kamal/secrets).
-  password: ${{ KAMAL_REGISTRY_PASSWORD }}
+  password:
+    - KAMAL_REGISTRY_PASSWORD
 
 # Configure builder setup.
 builder:
@@ -57,6 +58,7 @@ builder:
 #   user: app
 ssh:
   keys: [ "~/.ssh/id_do_11_2024" ]
+  # keys: [ "~/.ssh/id_do_11_2024" ]
 
 # Use a persistent storage volume.
 #
